@@ -1,0 +1,25 @@
+/* Slideshow */
+
+.slideshow {
+    margin: 0 auto;
+    overflow: hidden;
+    max-width: 1000px;
+}
+
+.slideshowSlider {
+    white-space: nowrap;
+    transition: ease 1000ms;
+}
+
+.slide {
+    display: inline-block;
+
+    width: 100%;
+    min-height: 400px;
+    max-width: 90vw;
+    max-height: 500px;
+    margin: 0 auto;
+    border-radius: 40px;
+}
+
+/* Buttons */
